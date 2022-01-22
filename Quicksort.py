@@ -1,7 +1,8 @@
+#having pivot present at first 
 def pivot_place(li,first,last):
-    pivot=li[first]
-    left=first+1
-    right=last
+    pivot=li[last]
+    left=first
+    right=last-1
     while True:
         while left<=right and li[left]<=pivot:
             left=left+1
@@ -11,8 +12,8 @@ def pivot_place(li,first,last):
             break
         else:
             li[left],li[right]=li[right],li[left]
-    li[first],li[right]=li[right],li[first]
-    return right
+    li[last],li[left]=li[left],li[last]
+    return left
 def quicksort(li,first,last):
     if first<last:
         p=pivot_place(li,first,last)
