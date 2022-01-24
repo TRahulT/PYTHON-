@@ -1,4 +1,4 @@
-#having pivot present at first 
+#having pivot present at last
 def pivot_place(li,first,last):
     pivot=li[last]
     left=first
