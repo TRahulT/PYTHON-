@@ -11,6 +11,7 @@ def mergesort(list1):
         j=0
         k=0
         while i<len(n1) and j<len(n2):
+            #n1>n2(decending)n1<n2(ascending)
             if n1[i]>n2[j]:
                 list1[k]=n1[i]
                 i=i+1
