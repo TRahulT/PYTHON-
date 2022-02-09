@@ -7,10 +7,10 @@ def lisearch(arr,key):
     else:
         print('element is not found ')
 
-#arr=[4,54,22,43,55,43,65,64]
-#print(arr)
-#key=int(input('enter the value of key element'))
-#lisearch(arr,key)
+arr=[4,54,22,43,55,43,65,64]
+print(arr)
+key=int(input('enter the value of key element'))
+lisearch(arr,key)
 #linear search for duplicaton
 
 def linearsearch(arr,key):
