@@ -16,5 +16,5 @@ for i in range(len(list2)-1):
         if list2[j]<list2[m_val]:
             m_val=j
     list2[i],list2[m_val]=list2[m_val],list2[i]
-    print(list2)
+print(list2)
             
