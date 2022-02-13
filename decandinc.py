@@ -4,5 +4,5 @@ def decinc(n):
     else:
         print(n)
         decinc(n-1)
-        return(n)
+        print(n)
 print(decinc(5))
