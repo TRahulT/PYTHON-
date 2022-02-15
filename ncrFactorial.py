@@ -6,7 +6,6 @@ def ncr(n,r):
             l=fac(k-1)
             return k*l
     j=int(fac(n)/(fac(n-r)*fac(r)))
-
     return j
 print(ncr(5,2))
     
