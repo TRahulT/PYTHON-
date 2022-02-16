@@ -35,3 +35,4 @@ print(A1)
 
 #we can also find the tpe of any data type 
 print(type(A1))
+om
