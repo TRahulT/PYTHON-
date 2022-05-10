@@ -7,12 +7,7 @@ def feb(n):
     else:
         k=feb(n-1)
         j=feb(n-2)
-    return k+j
-print(feb(7))
-
-#recursive calls
-def fib(n):
-    if(n<=1):
-        return 
-        fib(n-2)
-print(fib(7))
+        return k+j
+num=int(input())
+for i in range(num):
+    print(feb(i))
