@@ -1,3 +1,4 @@
+#using iteration
 def fact(n):
     fac=[]
     for i in range(1,n+1):
@@ -5,6 +6,7 @@ def fact(n):
             fac=fac+[i]
     return fac
 print(fact(442))
+#using recursion 
 def fc(n):
     fac=[]
     for  i in range(1,n+1):
